@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <!-- Library -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.js"></script>
+    
+    <script defer language="javascript" src="System/ToolsModules.js" type="text/javascript"></script>
+    <script defer language="javascript" src="System/Phoropter.js" type="text/javascript"></script>
+    <script defer language="javascript" src="script.js" type="text/javascript"></script>
+
+    <!-- ML Script -->
+    <script defer language="javascript" src="display/hand/detection.js" type="text/javascript"></script>
+    <script defer language="javascript" src="display/face/detection.js" type="text/javascript"></script>
+    
+    <!-- Global Script -->
+    <script defer language="javascript" src="display/sketch.js" type="text/javascript"></script>
+    <script defer language="javascript" src="display/camera.js" type="text/javascript"></script>
+    
+    <title>Vydsion</title>
+</head>
+<body>
+    <div class="snellen-chart">
+        <h1 class="chart">A</h1>
+    </div>
+    <video id="video"></video>
+</body>
+</html>

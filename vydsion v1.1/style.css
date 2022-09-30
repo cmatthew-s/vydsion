@@ -1,0 +1,42 @@
+body {
+    background: #000;
+    position: relative;
+    height: 100vh;
+}
+
+#canvas {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100px;
+}
+
+#video {
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px#fff solid;
+    border-radius: 10px;
+    bottom: 100px;
+}
+
+.snellen-chart {
+    position: relative;
+    height: 30px;
+}
+
+h1 {
+    color: white;
+    /* text-align: center; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* transform: translateX(-50%); */
+    /* top: 40px; */
+
+    font-size: 100px;
+    transition: all 0.3s ease;
+}
